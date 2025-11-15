@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>弟弟的学习乐园</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 弟弟的学习乐园 🎮</h1>
+            <p>学习也可以很有趣！</p>
+        </header>
+
+        <div class="apps">
+            <!-- 数学练习 -->
+            <div class="app-card" onclick="openApp('math')">
+                <h3>🔢 数学小天才</h3>
+                <p>加减乘除练习</p>
+            </div>
+
+            <!-- 英语学习 -->
+            <div class="app-card" onclick="openApp('english')">
+                <h3>🔤 英语快乐学</h3>
+                <p>单词记忆游戏</p>
+            </div>
+
+            <!-- 科学知识 -->
+            <div class="app-card" onclick="openApp('science')">
+                <h3>🔬 科学探索</h3>
+                <p>有趣的科学知识</p>
+            </div>
+        </div>
+
+        <!-- 应用内容区域 -->
+        <div id="app-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
